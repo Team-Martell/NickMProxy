@@ -46,16 +46,16 @@ module.exports = {
     url: 'http://localhost:5000',
     bundle: 'bundle.js',
   }
-  // service2: {
-  //   api: '/products/:id/*',
-  //   url: 'http://localhost:5000',
-  //   bundle: 'bundle.js',
-  // },
-  // service3: {
-  //   api: '/products/:id/*',
-  //   url: 'http://localhost:5000',
-  //   bundle: 'bundle.js',
-  // },
+  service2: {
+    api: '/products/:id/*',
+    url: 'http://localhost:5000',
+    bundle: 'bundle.js',
+  },
+  service3: {
+    api: '/carousel/:productid/*',
+    url: 'http://localhost:9999',
+    bundle: 'bundle.js',
+  },
   // service4: {
   //   api: '/products/:id/*',
   //   url: 'http://localhost:5000',
