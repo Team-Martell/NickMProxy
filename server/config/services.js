@@ -56,9 +56,9 @@ module.exports = {
     url: 'http://localhost:9999',
     bundle: 'bundle.js',
   },
-  // service4: {
-  //   api: '/products/:id/*',
-  //   url: 'http://localhost:5000',
-  //   bundle: 'bundle.js',
-  // },
+  service4: {
+    api: '/ratings/*',
+    url: 'http://localhost:3001',
+    bundle: 'bundle.js',
+  },
 };
